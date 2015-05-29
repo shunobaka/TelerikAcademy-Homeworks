@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+	<form>
+		<table border="1" style="border-collapse:collapse">
+			<colgroup>
+				<col width="150px" />
+	 			<col width="275px" />
+			</colgroup>
+			<tfoot>
+				<tr bgcolor="lightblue">
+					<th colspan="2">
+						<input type="submit" />
+						<input type="reset" value="Clean this form">
+					</th>
+				</tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<th>Last Name</th>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<th>First Name</th>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<th>Address</th>
+					<td><textarea></textarea></td>
+				</tr>
+				<tr>
+					<th>City</th>
+					<td>
+						<input type="text" style="width:150px" />
+						<label>State</label>
+						<input type="text" style="width:70px" />
+					</td>
+				</tr>
+				<tr>
+					<th>Zip/Postal Code</th>
+					<td><input type="number" style="width:75px" /></td>
+				</tr>
+				<tr>
+					<th>Country</th>
+					<td>
+						<select name="country" style="width:200px">
+							<option>Bulgaria</option>
+							<option>Serbia</option>
+							<option>Poland</option>
+							<option>Russia</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>Phone(country code, area code, number)</th>
+					<td>
+						<label for="country-code">(+</label>
+						<input type="number" id="country-code" style="width:50px" />
+						<label for="country-code">)</label>
+						<input type="number" style="width:50px" />
+						<input type="tel" style="width:120px" />
+					</td>
+				</tr>
+				<tr>
+					<th>E-mail</th>
+					<td><input type="email" /></td>
+				</tr>
+				<tr>
+					<th>Birth date</th>
+					<td><input type="date" /></td>
+				</tr>
+				<tr>
+					<th>Gender</th>
+					<td>
+						<select>
+							<option>Male</option>
+							<option>Female</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>Starting date</th>
+					<td>
+						<input type="radio" id="spring" name="start-date" />
+						<label for="spring">Spring 2015</label>
+						<input type="radio" id="summer" name="start-date" />
+						<label for="summer">Summer 2015</label>
+					</td>
+				</tr>
+				<tr>
+					<th>Comments/Questions</th>
+					<td><textarea></textarea></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
