@@ -1,0 +1,21 @@
+body {
+	color: #0094ff;
+}
+
+@font-face {
+	font-family: Edwardian;
+	src: url('ITCEDSCR.ttf');
+}
+
+p {
+	font-family: Consolas, sans-serif;
+}
+
+span {
+	font-size: 36px;
+	font-family: Edwardian, sans-serif;
+}
+
+p:first-line {
+	font-weight: bold;
+}

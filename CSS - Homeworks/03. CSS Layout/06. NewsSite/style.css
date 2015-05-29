@@ -1,0 +1,92 @@
+body {
+	background-color: rgb(31, 55, 65);
+	color: #fff;
+	margin: 0;
+	margin-top: 10px;
+}
+
+div#wrapper {
+	padding: 0;
+}
+
+header nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+
+label {
+	padding: 15px;
+	background-color: rgb(76, 95, 103);
+	color: rgb(147, 172, 181);
+}
+
+label:hover {
+	text-decoration: underline;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"]:checked + label {
+	background-color: rgb(31, 55, 65);
+}
+
+a {
+	color: rgb(147, 172, 181);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+main {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+main img {
+	float: right;
+	box-sizing: border-box;
+	width: 60%;
+	padding: 0 40px 20px 0px;
+}
+
+h1 {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 40%;
+}
+
+h1 {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 40%;
+	margin: 0;
+	padding: 20px;
+	background-color: rgb(22, 150, 140);
+	font-size: 25px;
+	font-weight: normal;
+}
+
+section article {
+	padding: 20px 10px;
+	font-size: 25px;
+}
+
+p {
+	color: rgb(147, 172, 181);
+	margin: 0px;
+}
+
+hr {
+	border: 1px solid rgb(147, 172, 181);
+}

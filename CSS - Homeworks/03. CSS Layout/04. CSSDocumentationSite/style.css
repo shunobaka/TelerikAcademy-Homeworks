@@ -1,0 +1,192 @@
+body {
+    margin: 5px;
+    background-color: #eee;
+    font-family: sans-serif;
+}
+
+nav {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 20%;
+    max-width: 200px;
+    float: left;
+    padding-right: 5px;
+}
+
+header img#home-image {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span#home {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+span.ul-heading {
+    color: #bb0000;
+    font-weight: bold;
+}
+
+main {
+    border: 2px solid #999;
+    width: 59%;
+    float: right;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-right: 5px;
+}
+
+h1 {
+    margin: 25px 5px 10px;
+}
+
+main div {
+    display: inline-block;
+    position: relative;
+}
+
+main label.previous {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+
+main label.next {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+hr {
+    height: 2px;
+    margin: 0px 5px;
+    background-color: #999;
+}
+
+h2 {
+    margin: 5px;
+    background-color: #999;
+    color: #fff;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+main img#css-logo {
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin: 5px 20px 20px 5px;
+}
+
+p {
+    margin: 15px;
+}
+
+p.css-tutorial {
+    font-weight: bold;
+    clear: right;
+}
+
+main a {
+    display: block;
+    margin: 10px 10px 15px 10px;
+    color: #bb0000;
+}
+
+main button {
+    height: 28px;
+    width: 148px;
+    border: 2px solid #000;
+    margin: 5px;
+}
+
+button.previous {
+    background-image: url('images/previous.png');
+    margin-right: 0;
+}
+
+button.next {
+    background-image: url('images/next.png');
+    margin-left: 0;
+}
+
+hr#last-line {
+    margin-bottom: 40px;
+}
+
+aside {
+    display: inline-block;
+    float: right;
+    width: 20%;
+}
+
+aside div {
+    margin: 0;
+    padding: 5px;
+    border: 2px solid #999;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #999;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+input[type=text] {
+    width: 70%;
+}
+
+aside button {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+aside a {
+    display: block;
+    color: #bb0000;
+}
+
+aside img {
+    width: 75%;
+    border: 1px solid #000;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

@@ -1,0 +1,17 @@
+ul
+	list-style-type none
+	li
+		display inline
+		img
+			width 200px
+		input[type=radio]
+			display none
+			&:checked + img.hidden
+				visibility visible
+				
+img.hidden
+	visibility hidden
+	position absolute
+	width 50%
+	top 200px
+	left 48px

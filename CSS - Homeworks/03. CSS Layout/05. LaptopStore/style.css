@@ -1,0 +1,106 @@
+body {
+	font-family: sans-serif;
+}
+
+div#wrapper {
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+header nav {
+	text-align: center;
+	margin: 10px;
+}
+
+header nav a {
+	font-weight: bold;
+	font-size: 20px;
+	color: #00bbff;
+}
+
+hr {
+	width: 95%;
+	border: 1px solid #000;
+	margin: 0;
+}
+
+main {
+	display: inline-block;
+	clear: both;
+
+}
+
+main > div {
+	margin: 8px;
+	display: inline-block;
+	float: left;
+}
+
+div.bordered {
+	border: 2px solid #000;
+	border-radius: 3px;
+}
+
+div.table-div {
+	display: table;
+}
+
+div.row-div {
+	display: table-row;
+}
+
+div.cell-div {
+	display: table-cell;
+}
+
+fieldset {
+	border: 2px solid #000;
+	border-radius: 3px;
+	margin: 5px;
+}
+
+legend {
+	text-align: center;
+}
+
+div.pc-info {
+	vertical-align: bottom;
+}
+
+div.pc-price {
+	text-align: center;
+}
+
+p {
+	margin: 16px 0 0 0;
+}
+
+.sub-align {
+	vertical-align: sub;
+}
+
+.small-text {
+	font-size: 80%;
+	font-weight: bold;
+}
+
+aside {
+	display: inline-block;
+	float: right;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 40px;
+}
+
+input[type=range] {
+	margin: 10px;
+}
+
+li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

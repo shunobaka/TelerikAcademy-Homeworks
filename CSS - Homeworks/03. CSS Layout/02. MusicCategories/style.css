@@ -1,0 +1,62 @@
+body {
+	font-family: Ariel, sans-serif;
+	background-color: #ddd;
+}
+
+h1 {
+	font-weight: normal;
+	margin: 25px 0px 60px 10px;
+}
+
+section {
+	width: 650px;
+	min-height: 194px;
+	border: 2px solid #999;
+	margin-left: 10px;
+	margin-bottom: 60px;
+	position: relative;
+	background-color: #fff;
+}
+
+img {
+	margin: 20px;
+	border: 1px solid #999;
+	float: left;
+}
+
+p {
+	display: block;
+	width: 90%;
+	margin: 20px 40px 20px 20px;
+	font-size: 20px;
+}
+
+.bolded {
+	font-weight: bold;
+}
+
+form {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+label {
+	font-size: 20px;
+}
+
+label.listen {
+	position: absolute;
+	color: #ffffff;
+	top: 25%;
+	left: 15%;
+}
+
+label.add {
+	position: absolute;
+	color: #ffffff;
+	top: 25%;
+	left: 70%;
+}

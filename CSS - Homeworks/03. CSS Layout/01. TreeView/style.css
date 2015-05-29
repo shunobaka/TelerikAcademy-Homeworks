@@ -1,0 +1,15 @@
+ul {
+	list-style: none;
+}
+
+ul#main-menu ul {
+	display: none;
+}
+
+ul#main-menu li:hover > ul {
+	display: block;
+}
+
+li:hover > span.list-item {
+	text-decoration: underline;
+}
