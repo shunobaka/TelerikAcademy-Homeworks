@@ -8,7 +8,7 @@
     <ProjectGuid>{B20E8DFD-5F12-4358-849D-1F25806E9052}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Minesweeper</RootNamespace>
+    <RootNamespace>MinesweeperGame</RootNamespace>
     <AssemblyName>Minesweeper</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -77,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Minesweeper.cs" />
+    <Compile Include="Score.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
