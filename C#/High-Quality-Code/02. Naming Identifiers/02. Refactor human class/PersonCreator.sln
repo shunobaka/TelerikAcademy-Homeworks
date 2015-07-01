@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonCreator", "PersonCreator.csproj", "{B729C1DD-CC85-4237-B1A6-FF27F1008EBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B729C1DD-CC85-4237-B1A6-FF27F1008EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B729C1DD-CC85-4237-B1A6-FF27F1008EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B729C1DD-CC85-4237-B1A6-FF27F1008EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B729C1DD-CC85-4237-B1A6-FF27F1008EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
