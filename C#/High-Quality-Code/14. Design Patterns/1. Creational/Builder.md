@@ -1,4 +1,4 @@
-# Creational Design Patterns
+﻿# Creational Design Patterns
 
 ## Builder
 
@@ -137,7 +137,7 @@
 
 * **Структура**
 
-![Builder](images/Builder.jpg "Builder - UML diagram")
+![Builder](https://github.com/shunobaka/TelerikAcademy-Homeworks/blob/master/C%23/High-Quality-Code/14.%20Design%20Patterns/1.%20Creational/images/Builder.jpg "Builder - UML diagram")
 
 * **Сродни модели** (related patterns)
 	+ Simple Factory

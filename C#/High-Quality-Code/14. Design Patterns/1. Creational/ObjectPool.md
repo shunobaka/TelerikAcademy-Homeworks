@@ -1,4 +1,4 @@
-# Creational Design Patterns
+﻿# Creational Design Patterns
 
 ## Object Pool
 
@@ -87,4 +87,4 @@
 
 * **Структура**
 	
-![Object pool](images/ObjectPool.jpg "ObjectPool - UML diagram")
+![Object pool](https://github.com/shunobaka/TelerikAcademy-Homeworks/blob/master/C%23/High-Quality-Code/14.%20Design%20Patterns/1.%20Creational/images/ObjectPool.jpg "ObjectPool - UML diagram")

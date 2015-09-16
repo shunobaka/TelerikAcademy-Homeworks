@@ -199,4 +199,4 @@ namespace DoFactory.GangOfFour.Decorator.RealWorld
 
 ## UML  диаграма
 
-![alt text](images/Decorator.png)
+![alt text](https://github.com/shunobaka/TelerikAcademy-Homeworks/blob/master/C%23/High-Quality-Code/14.%20Design%20Patterns/2.%20Structural/images/Decorator.png)

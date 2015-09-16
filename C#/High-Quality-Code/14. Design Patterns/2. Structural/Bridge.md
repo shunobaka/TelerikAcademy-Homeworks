@@ -218,4 +218,4 @@ namespace DoFactory.GangOfFour.Bridge.RealWorld
 
 ## UML  диаграма
 
- ![Bridge design pattern](./images/Bridge.png)
+ ![Bridge design pattern](https://github.com/shunobaka/TelerikAcademy-Homeworks/blob/master/C%23/High-Quality-Code/14.%20Design%20Patterns/2.%20Structural/images/Bridge.png)

@@ -1,4 +1,4 @@
-# Creational Design Patterns
+﻿# Creational Design Patterns
 
 ## Singleton
 Това е Design Pattern, който нарушава някой от ООП принципи (и SOLID _single responsibility_). Затова този патърн носи със себе си 'тежести', проблеми за отстраняване.
@@ -84,7 +84,7 @@
 
 * **Структура**
 
-![Singleton](images/Singleton.jpg "Singleton - UML diagram")
+![Singleton](https://github.com/shunobaka/TelerikAcademy-Homeworks/blob/master/C%23/High-Quality-Code/14.%20Design%20Patterns/1.%20Creational/images/Singleton.jpg "Singleton - UML diagram")
 
 * **Проблеми**
 	- Да не се създава предварително, а в първият момент когато бъде извикана инстанцията
